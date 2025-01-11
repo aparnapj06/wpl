@@ -1,0 +1,81 @@
+Frame.html
+  <html>
+  <head>
+  <title>FRAME</title>
+  </head>
+  <body style="font-style:Arial, sans-serif ;font-size:25px;">
+     <h1 style="text-align:center;">String and math function</h1>
+     <iframe src="w6.html" width='700' height='500'></iframe>
+     <iframe src="w6a.html" width='700' height='500'></iframe>
+  </body>
+  </html>
+
+
+
+Math function
+<html>
+<head>
+<title>function</title>
+ <style>
+body{
+background-color: lightgray;
+}</style>
+</head>
+  <body style="font-style:Arial, sans-serif ;font-size:20px;">
+<section>
+<h2>Math function</h2>
+<p><strong>1. Math.round(3.7):</strong> <span id="round"></span></p>
+<p><strong>2. Math.min(100,43,20,6):</strong> <span id="min"></span></p>
+<p><strong>3. Math.max(62,28,90,3,70):</strong> <span id="max"></span></p>
+<p><strong>4. Math.abs(39.579):</strong> <span id="abs"></span></p>
+<p><strong>5. Math.floor(3.7):</strong> <span id="floor"></span></p>	
+<p><strong>6. Math.ceil(3.7):</strong> <span id="ceil"></span></p>
+<p><strong>7. Math.pow(3,7):</strong> <span id="pow"></span></p>
+</section>
+<script>
+ document.getElementById('round').textContent = Math.round(3.7);
+document.getElementById('min').innerHTML =  Math.min(100,43,20,6);
+document.getElementById('max').innerHTML = Math.max(62,28,90,3,70);
+document.getElementById('abs').innerHTML = Math.abs(39.579);
+document.getElementById('floor').innerHTML = Math.floor(3.7);
+document.getElementById('ceil').innerHTML = Math.ceil(3.7);
+document.getElementById('pow').innerHTML =Math.pow(3,7);
+document.getElementById('pi').innerHTML =  Math.PI(3);
+</script>
+</body>
+</html>
+
+
+
+String functions
+<html>
+<head>
+<title>function</title>
+ <style>
+body{
+background-color: lightgray;
+}</style>
+</head>
+<body style="font-family:Arial, sans-serif ;font-size:20px;">
+<section>
+<h2>String function</h2>
+<p>Original string: Good Morning</p>
+<p><strong>1.toUpperCase:</strong> <span id="upperCase"></span></p>
+<p><strong>2. toLowerCase:</strong> <span id="lowerCase"></span></p>
+<p><strong>3. indexOf:</strong> <span id="index_of"></span></p>
+<p><strong>4. slice(0,5):</strong> <span id="slice"></span></p>
+<p><strong>5. replace:</strong> <span id="replace"></span></p>
+<p><strong>6. split:</strong> <span id="split"></span></p>
+</section>
+<script> const str="Good Morning";
+ document.getElementById('upperCase').textContent = str.toUpperCase();
+ document.getElementById('lowerCase').textContent = str.toLowerCase();
+ document.getElementById('index_of').textContent = str.indexOf('Morning');
+ document.getElementById('slice').textContent = str.slice(0,5);
+ document.getElementById('replace').textContent = str.replace('Morning','Evening');
+ document.getElementById('split').textContent = str.split(' ');
+</script>
+</div>
+</body>
+</html>
+
