@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calendar</title>
+  <style>
+    table {width: 100%;
+      border-collapse: collapse;}
+    th, td {padding: 8px;
+      text-align: center;
+      border: 1px solid black;}
+    th {background-color: powderblue;}
+    .today {background-color: powderblue;}
+</style>
+</head>
+<body>
+  <h1>Calendar</h1>
+  <label for="year">Enter Year: </label>
+  <input type="number" id="year" placeholder="Year" required>
+  <label for="month">Enter Month: </label>
+  <input type="number" id="month" placeholder="Month (1-12)" required>
+  <button onclick="generateCalendar()">Generate Calendar</button>
+  <br><br>
+  <div id="calendar"></div>  <script>
+    function generateCalendar() {
+      let year = document.getElementById('year').value;
+      let month = document.getElementById('month').value - 1;      
+      if (year === "" || month < 0 || month > 11) {
+        alert("Invalid input, please enter a valid year and month.");
+        return;}
+      let firstDay = new Date(year, month, 1);
+      let lastDay = new Date(year, month + 1, 0); 
+      let daysInMonth = lastDay.getDate();
+      let startDay = firstDay.getDay();
+      const monthNames = ["January", "February", "March", "April", "May", "June", "July",      "August", "September", "October", "November", "December"];
+      let monthName = monthNames[month];
+      let calendarHTML = `<h2>${monthName} ${year}</h2>`;
+      calendarHTML += "<table><thead><tr>";
+      const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday,"Friday", "Satyrday"];
+for (let day of daysOfWeek) {
+calendarHTML += `<th>${day}</th>`;
+}calendarHTML += "</tr></thead><tbody><tr>";
+for (let i = 0; i < startDay; i++) {
+calendarHTML += "<td></td>";}
+for (let day = 1; day <= daysInMonth; day++) {
+if ((startDay + day - 1) % 7 === 0 && day !== 1) {
+calendarHTML += "</tr><tr>";
+}
+let today = new Date();
+let isToday = (today.getDate() === day && today.getMonth() === month && today.getFullYear() === parseInt(year));
+calendarHTML += `<td class="${isToday ? 'today' : ''}">${day}</td>`;
+}while ((startDay + daysInMonth) % 7 !== 0) {
+calendarHTML += "<td></td>";
+daysInMonth++;
+}calendarHTML += "</tr></tbody></table>";
+document.getElementById('calendar').innerHTML = calendarHTML;}
+</script>
+</body>
+</html>
+
