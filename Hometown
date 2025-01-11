@@ -1,0 +1,186 @@
+Main.html  
+ 
+<html>  
+<head>  
+<title> ENAKULAM </title>  
+<link rel="stylesheet" href="main.css">  
+<style>  body  
+{  
+font-family: Arial, sans-serif;  margin: 0;  padding: 20px;  background-image: url('b.jpg');  background-repeat: no-repeat;  background-attachment: fixed;  background-size: cover;  margin: 20px;   
+padding: 10px;   
+}  p  {  
+font-size:20px;  
+}  
+</style>  
+<head>  
+<body>  
+<h1> ERNAKULAM </h1>  
+<p>  
+Ernakulam is one of the 14 districts in the Indian state of Kerala, and takes  its name from the eponymous city division in Kochi. It is situated in the  central part of the state, spans an area of about 2,924 square kilometres  (1,129 sq mi), and is home to over 9% of Kerala's population. Its  headquarters are located at Kakkanad. The district includes Kochi, also  known as the commercial capital of Kerala, which is famous for its ancient  churches, Hindu temples, synagogues  
+</p>  
+<a href="town.html">see more about ernakulam</a>  
+<h2>Location<h2>  
+<iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39  15.610123456789!2d76.267304315334!3d9.981635392857!2m3!1f0!2f0!  3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080d4e4e4e4e4e%3A0x4  e4e4e4e4e4e4e4e!2sErnakulam%2C%20Kerala%2C%20India!5e0!3m2!1s 
+ en!2sus!4v1612345678901!5m2!1sen!2sus"  width="500"  height="350"  style="border:0;"  allowfullscreen=""  loading="lazy"  
+></iframe>  
+<h2>Popular places<h2>  
+<h3>Tourist place<h3>  
+<img src="C:\Users\acer\Desktop\mits\imges\ekm9.jpg"width=200px height=150px">  
+<img src="C:\Users\acer\Desktop\mits\imges\ekm10.jpg"width=200px height=150px">  
+<img src="C:\Users\acer\Desktop\mits\imges\ekm1.jpg"width=200px height=150px">  
+<img src="C:\Users\acer\Desktop\mits\imges\ekm2.jfif"width=200px height=150px">  
+<img src="C:\Users\acer\Desktop\mits\imges\ekm4.jfif"width=200px height=150px">  
+<img src="C:\Users\acer\Desktop\mits\imges\ekm5.jfif"width=200px height=150px">  
+<h3>Hospitas<h3>  
+<img src="C:\Users\acer\Desktop\mits\imges\ekm6.jfif"width=200px height=150px">  
+<img src="C:\Users\acer\Desktop\mits\imges\ek11.jpg"width=200px height=150px">  
+<img src="C:\Users\acer\Desktop\mits\imges\ekm12.jpg"width=200px  height=150px">  
+<a href="gallary.html" >Places in Ernakulam you must explore</a>  
+</body>  
+</html>  
+ 
+Gallery.html  
+ 
+<html>  
+<head><title>town</title>  
+<link rel="stylesheet" href="main.css">  
+<style>     img {  
+            width: 200px;              height: 190px;               margin: 10px;              border: 5px solid #ccc;              border-radius: 5px;  
+            transition: transform 0.2s;  
+        }         
+   img:hover {  
+            transform: scale(1.05);   
+        }     h2   {  
+ text-align: center;  
+ }    body   {  
+    border: 5px solid #000;      margin: 20px;   padding: 10px;  background-image: url('b.jpg');  background-repeat: no-repeat;  background-attachment: fixed;  
+background-size: cover;   
+}  
+</style>  
+</head>  
+<body>  
+<h1> Places in Ernakulam you must explore</h1>  
+<p> Boasting a white-sandy beach, captivating island, heritage museums, and  so much more, Ernakulam encompasses an array of magnificent  attractions. Visit this wondrous city in God’s own country – Kerala and  have a wholesome excursion. But, before beginning your expedition  make sure to check out these stunning places to visit in Ernakulam and  remain spellbound.</p>  <ul>  
+<li>St. George’s Forane Church Edappally</li>  
+<li>Maharaja's College, Ernakulam</li>  
+<li>Kochi Metro</li>  
+<li>Marine Drive </li>  
+<li>Holiday Inn Cochin</li>  
+<li>Subhash Park Ernakulam</li>  
+<li>Lulu mall </li>  
+<li>Food sport</li>  
+</ul>  
+<table border=2 width=60% align=center>  
+<tr> <td><h2>St. George’s Forane Church Edappally :</h2></td> </tr>  
+<tr> <td><p>It is locally known as 'Edappally Palli' is a Catholic pilgrimage church in  Edapally, Kochi, India. Being Asia’s largest shrine to Saint George, about  five million people visit  founded in 593 AD.  
+<a href="https://en.m.wikipedia.org/wiki/St._George's_Syro 
+Malabar_Forane_Church,_Edappally">vist for more</a></p>  
+<img src="C:\Users\acer\Desktop\mits\imges\ekm1.jpg"></td> </tr>  
+<tr> <td> <h2>Maharaja's College, Ernakulam :</h2></td> </tr> <tr> <td>  <p>Maharaja’s College, Ernakulam is a college of higher education  established in the year 1875.  
+spreads over a 25-acre campus<a  
+href=https://en.wikipedia.org/wiki/Maharaja%27s_College,_Ernakulam</  a></p> <img src="C:\Users\acer\Desktop\mits\imges\ekm2.jfif"><br> </td> </tr>  <tr> <td>  
+<h2>Kochi Metro :</h2></td>  
+</tr> <tr> <td> <p>The Kochi Metro is a rapid transit system serving the city of Kochi and  the wider Kochi Metropolitan Region in Kerala, India. It was opened to  
+the public within four years of starting construction, making it one of the  fastestThe Kochi metro project . It is also the first metro rail system in India to be  operated using the Communication-Based Train Control (CBTC) signalling  system, which requires minimum human intervention</p>  
+<img src="C:\Users\acer\Desktop\mits\imges\ekm3.jpg">  
+</td> </tr> <tr> <td>  
+<h2>Marine Drive :</h2></td>  
+</tr> <tr> <td>  
+<p>Marine Drive is the most happening place in the heart of Kochi. The  picturesque area, built facing the backwaters, is the main hangout place  for people inside and outside Kochi. Whoever visits for sightseeing in  
+Cochin, never leaves the town without paying a visit to the Marine Drive. Not only walkways, there are also many shopping malls and eateries near Marine Drive to hang out.<a  href="https://en.m.wikipedia.org/wiki/Marine_Drive,_Kochi">vist for  more</a> </p>  
+<img src="C:\Users\acer\Desktop\mits\imges\ekm4.jfif">  
+<img src="C:\Users\acer\Desktop\mits\imges\ekm5.jfif"><br>   
+</td> </tr> <tr> <td>  
+<h2>Holiday Inn Cochin :</h2></td> </tr> <tr> <td>  
+<p>Located in the vibrant Ernakulam area, Holiday Inn Cochin offers a  comfortable and convenient stay with a range of amenities designed for a  relaxing visit of facilities to ensure a pleasant experience for both business and leisure  travelers.</p>  
+<img src="C:\Users\acer\Desktop\mits\imges\ekm13.jpg"><br>  
+</td> </tr>  
+<tr> <td>  
+<h2>Subhash Park Ernakulam :</h2></td> </tr>  
+<tr> <td>  
+<p>Subhash Park is a wonderful public park that is located in the heart of  
+Ernakulam city. Towards the western side, Subhash Park overlooks the  Subhash Chandra Bose Park, the park spread over 11.5 acres and located  next to Ernakulam boat jetty and opposite to Maharaja’s College. The  park is virtually city and is a  
+favorite among kids as well as adults.</p>  
+<img src="C:\Users\acer\Desktop\mits\imges\ekm14.jpg">  
+<img src="C:\Users\acer\Desktop\mits\imges\ekm15.jpg"><br>  
+</td> </tr>  
+<tr> <td>  
+<h2>Lulu mall :</h2></td>  
+</tr> <tr> <td>  
+<p>LuLu Mall, Kochi is a shopping mall located in Edappally, Kochi, Kerala.  Spanning 17 acres (6.9 ha) with a total built up area of 0.73 million Sq  ft[2]. It contains around 280 outlets, including food courts, restaurants,  
+family Galley.<a href="https://en.wikipedia.org/w/index.php?search=lulu+mall+kochi&titl  e=Special%3ASearch&ns0=1>vist for more</a></p>  <img src="C:\Users\acer\Desktop\mits\imges\ekm16.JPG">  
+</td> </tr>  
+<tr> <td> <h2>Food sport :</h2></td> </tr>  
+<tr> <td> <img src="C:\Users\acer\Desktop\mits\imges\ekm18.jpg">  
+<img src="C:\Users\acer\Desktop\mits\imges\ekm17.jpg">  
+</td> </tr>  
+</table>  
+</body>  
+</html>  
+ 
+History.html  
+ 
+<html>  
+<head>  
+<title>history</title>  
+<link rel="stylesheet" href="main.css">  
+<style>  
+table{  
+background-color:#D6EEEE;}  
+.loc {  position: absolute;  top: 10px;  left: 1050px;  
+}  body {  border: 5px solid #000;  margin: 20px;   padding: 10px;   background-image: url('b.jpg');  background-repeat: no-repeat;  background-attachment: fixed;  
+background-size: cover;  
+}  p {  line-height: 1.6;            font-size: 1.1em;           margin: 0 20px;       
+}  
+</style>  
+</head>  
+<body>  
+<h1>Ernakulam</h1>  
+<h3>District in Kerala :</h3>  
+<table class="loc" border='1'>  
+<th><h3>weather</h3></th>  
+<tr>  
+<td><p>Wed</p></td>  
+<td> <p style=" font-size: 20px;">&#127780;33</p></td>  </tr>  
+<tr>  
+<td><p>Thu</p></td>  
+<td> <p style=" font-size: 20px;">&#127780;33</p></td></tr>  
+</tr>  
+<tr>  
+<td><p>Fri</p></td>  
+<td> <p style=" font-size: 20px;">&#127783;33</p></td>  
+</tr>  
+</table>  
+<h2>ABOUT</h2>  
+<p>  
+Ernakulam (IPA: [erɐɳɐːguɭɐm] ⓘ; ISO: Eṟaṇākuḷaṁ) is one of the 14  districts in the Indian state of Kerala, and takes its name from the  eponymous city division in Kochi. It is situated in the central part of the  state, headquarters are located at Kakkanad. The district includes Kochi, also  commercial capital of Kerala, which is famous for its ancient churches, Hindu temples,  synagogues and mosques. The district includes the largest metropolitan region of the state: 
+Greater Cochin. the highest number of international and domestic tourists in Kerala state.  The most commonly spoken language in Ernakulam is Malayalam. English  is widely used, mostly in business circles.  
+</p>  
+<div class="container">  
+<h2>HISTORY</h2>  
+<img src="C:\Users\acer\Desktop\mits\imges\T2.jpg" width=200px  height=150px">  
+<p>  
+Ernakulam has played a part in the political history of south India since  ancient times. The Jews, Syrians, Arabs, Chinese, Dutch, British, and  Portuguese seafarers followed the sea route to the Kingdom of Cochin  and left their impressions on the town. The port at Kozhikode held  superior economic and political position in medieval Kerala coast, while  Kannur, Kollam, and Kochi, were commercially important secondary  ports, where the traders from various parts of the world would gather.[9]  In 1664, the municipality of Fort Kochi was established by Dutch Malabar,  making it the first municipality in Indian subcontinent, which got  dissolved when the Dutch authority got weaker in 18th century.[10] In  1896, by forming a town council in Ernakulam. Initially, The  located in the portion of the city known as Ernakulam, which gave the  district its name; the headquarters was relocated afterwards to  Kakkanad.  
+In the year 1998, Kuttampuzha village was added to the district from  Idukki district following which the district got a political boundary with  neighbouring state of Tamil Nadu. There is no interstate road that  connects the district with the neighbouring state through this border.  
+</P>  
+</DIV>  
+<h2>Topography</h2>  
+<img src="C:\Users\acer\Desktop\mits\imges\T3.jpg" width=200px  height=150px">  
+<p>  
+The district is divided into three parts: lowland, midland, and the highland  that consist of seaboard, plains, and hills and forests respectively. 20  percent of the total area are lowlands. The forests in the eastern part of  the district are mostly remote, forming a part of the Anamalais. The  highest peak is the Anamudi. The midland consists mainly of plain land  and a group of islands that naturally drain water via backwaters and  canals. The hilly or eastern portion is formed by a section of the Western  Ghats. Muvattupuzha and Kothamangalam taluks, which were initially  parts of the Kottayam district and constitute the highlands.  Muvattupuzhayar and Periyar are the main rivers, of which the latter  During the rainy season these rivers are full and heavy floods affect the  low-lying areas on the banks, but in the summer season, they generally  go dry and narrow. The Periyar is stretched over a length of 229 km (142  mi).  
+In the year 1998, Kuttampuzha village was added to the district from  Idukki district following which the district got a political boundary with  connects the district with the neighbouring state through this border.  
+</P>  
+<h2>Forest and wildlife</h2>  
+<img src="C:\Users\acer\Desktop\mits\imges\T4.jpg"width=200px  height=150px">  
+<p>  
+The flora of this district is tropical. The heavy rainfall combined with  moderate temperatures and fertile soil support abundant vegetation.  the lowland region. The midland region is occupied by coconut palms,  paddy, tapioca, pepper, pineapple and pulses. The lower slopes of the  highland region have teak and rubber.  
+Mangalavanam Bird Sanctuary is located at the centre of Kochi. It covers  
+2.74 ha (6.8 acres), supports many species of mangroves and is a nesting  "green lung of Kochi", considering its role in controlling the city's air  pollution.  
+Thattekad Bird Sanctuary lies on the northern bank of the Periyar River  Ali. The sanctuary is 80 km (50 miles) from Kochi. Birds found here include  falcons, jungle fowl, water hens, and hornbills. The flora of this area  consists mainly of plantations of teak, rosewood, and mahogany. Further  on the road, Pooyamkutty forest of the Anamalais is reached.  
+</P>  
+</body>  
+</html>  
+ 
+ 
+ 
+ 
