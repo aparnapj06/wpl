@@ -1,0 +1,109 @@
+<html> 
+<head> 
+<title>cva</title> 
+<style> .s{ 
+  text-size: 40px;   border: 2px solid black;   height: 1100px;    text-align: justify; 
+} .nxt{    position:absolute; 
+   bottom:-350;    left:0; 
+   padding:0 30px 10px 0; 
+} 
+</style> 
+</head> 
+<body <div class="s"></div> 
+<img 	src 	="C:\Users\acer\Desktop\mits\I-2024-APARNA_P_J-9qi2s.jpeg" 	alt="img" height="150px" align="right"> 
+<P> 
+<h1>Aparna P J</h2> 
+Address : Pareparambil house<BR>           mahila samajam rd <BR>         vennala kochi <BR><br> 
+Email :<a href="aparnaappu0611@gmail.com">aparnaappu0611@gmail.com</a><br><br> Contact :<b>7510254359</b><br> </P>  
+<hr> 
+<h2>OBJECTIVE</h2> 
+<p>Recent BCA graduate eager to leverage programming skills in software development . I have developed proficiency in languages such as Java, Python, and JavaScript and to secure a software <br><br> development position in a reputable organization,utilizing my programming skills in Python, and C++ to deliver high-quality solutions and contribute<br<br>> to innovative projects</p> 
+<br><h2>EDUCATIONAL QUALIFICATIONS</h2> 
+<br><table border="2"> 
+<tr> 
+<td> <b>Institution name</td> 
+<td> <b>Course name</td> 
+<td><b> Percentage </td> 
+<td><b> Year </td> 
+</tr><tr> 
+<td>MES TO ADBULLA MEMORIAL COLLEGE</TD> 
+<td>BCA</td> 
+<td>87</td> 
+<td> 2021-24 </td> 
+</tr><tr> 
+<td>ST TERASA'S CGHSS ERNAKULAM</TD> 
+<td>Computer science</td> 
+<td>82</td> 
+<td> 2019-21 </td> 
+</tr><tr> 
+<td>ST JUDES EMHSS</TD> 
+<td>SSLC</td> 
+<td>98</td> 
+<td> 2019</td> 
+</tr> 
+</TABLE><br> 
+<H2>PROJECT</H2> 
+<ol><li><h3>Gym management   (2024)</h3></li> 
+<ul> 
+<li>Monitors all daily activities of the gym.</li> 
+<li>Facilitates easy renewal and upgrades for members and allows members to easily sign up for classes and sessions.</li> 
+<li>Adapts to the unique needs of different gyms./li> 
+<li>User can buy product </li> 
+<LI>Front end : HTML,CSS,BOOTSTRAP,JAVASCRIPT </li> 
+<li>Back end : SQLITE3</li> 
+<li>Framework : PYTHON</li> 
+</ul> 
+<li><H3>Homestate    (2023)</h3></li><ul> 
+<li>The main objective of the system provides a digital space for renting properties</li> <li> Ensures easy navigation for all users and allows landlords to showcase available properties with detailed descriptions and photos.</li> 
+<li>Promotes direct interaction between landlords and tenants,Encourages feedback on properties and landlords, enhancing trust.</li> 
+<LI>Front end : HTML,CSS</li> 
+<li>Back end : PHP,MYSQL</li> 
+<li>Framework : JAVA SCRIPT</li> 
+</ul> 
+</ul></p> 
+<div calss="nxt"><a href="C:\Users\acer\Desktop\mits\cva1.html" >Next page</a></div> </body> 
+</html> 
+
+
+
+Cva1.html 
+ 
+<html> 
+<head ><title>cv1</title><style> 
+.s{   text-size: 40px;   border: 2px solid black;   height: 1000px;    text-align: justify; 
+} .nxt{    position:absolute;    bottom:-450; 
+   right:0; 
+   padding:0 30px 10px 0; 
+} 
+</style> 
+</head> 
+<body <div class="s"></div> 
+<H2>SKILLS</H2> 
+<OL> 
+<LI><b>TECHNICAL SKILL</LI></b><br> 
+<ul> 
+<li>Programming lauguages : C,JAVA,PYTHON</li><br> 
+<li> Web development :HTML,CSS,PHP,MYSQL</li><br> 
+</UL></li> 
+<li><b>SOFT SKILL</b><br><br> 
+<ul><li>Problem solving in C language</li><br> 
+<li>Abillity to work in a team</li><br> 
+<li>Effective communication</li><br> 
+<li>Leadership quality</li><br> 
+</ul></li> 
+</ol> 
+<H2> PERSONAL SKILLS</H2> 
+<ul><li>Drawing</li> <li> Dancing</li> 
+<li>Communication</li> 
+<li>Listen to music</li> 
+<li>Cooking</li> 
+</ul><br> 
+<h2>  LANGUAGES KNOWING</H2> 
+<UL> 
+<LI> English  </LI> 
+</UL><div class="nxt"><a href="C:\Users\acer\Desktop\mits\cva.html">Back </a> </div> 
+</body> 
+</htmls> 
+ 
+ 
+ 
