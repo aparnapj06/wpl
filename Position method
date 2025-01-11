@@ -1,0 +1,31 @@
+ 
+W5.html 
+<html> 
+<head> 
+<title> Positioning Example</title> 
+ <link rel="stylesheet" href="absolute.css"> 
+ <link rel="stylesheet" href="relative.css"> 
+</head> 
+<body style="border: 5px solid black"> 
+<div class="absolute"> 
+<h1>Absolute Box</h1> 
+<p>Absolute positioning places an element relative to its nearest positioned ancestor    (non-static), or if none exists, it positions it relative to the viewport, removing   it from the normal document flow.<br>  syntax: position: absolute;</p> 
+</div> 
+<div class="relative"> 
+<h1>Relative </h1> 
+<p>Relative positioning in CSS positions an element relative to its normal position in the document flow, allowing you to adjust its position without affecting surrounding elements.<br>  syntax: position: absolute;</p> 
+</div> 
+</body> 
+</html> 
+ 
+Absolute.css 
+.absolute {     position : absolute;     top: 200px;           left: 450px;     right:400px;      background-color: yellow;     border: 5px solid black;     border-radius: 25px;     border-color:#f2cf07 
+} 
+ 
+Relative.css 
+.relative { 
+    position : relative; 
+    left: 50;     right: 50;     top:30; 
+    background-color: orange;     border: 5px solid white;     border-radius: 25px;     border-color:#bf4a06;     font-color:white; 
+} 
+ 
