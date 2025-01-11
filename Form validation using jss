@@ -1,0 +1,70 @@
+<html>
+<head>
+<title>validation</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+background-color: #f4f4f4;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+h2 {
+position: absolute;
+top: 100px;  
+left: 50%;
+transform: translateX(-50%);
+text-align: center;
+color: #333;
+font-size: 24px;
+}
+form {
+background-color: #fff;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+width: 300px;
+max-width: 100%;
+}
+</style>
+</head>
+<body>
+<h2>VALIDATION </h2>
+<form name="vform" action="" onsubmit="return validateForm()" method="post">
+NAME: <input type="text" name="fname"><br><br>
+AGE: <input type="number" name="fage"><br><br>
+PHONE_NO: <input type="number" name="fno"><br><br>
+PASSWORD: <input type="password" name="password"><br><br>
+EMAIL: <input type="text" name="email"><br><br>
+<input type="submit" value="Register"><br></form> <script>
+function validateForm()
+{
+var name = document.forms["vform"]["fname"].value;
+var age = document.forms["vform"]["fage"].value;
+var phone_no = document.forms["vform"]["fno"].value;
+var password = document.forms["vform"]["password"].value;
+var email = document.forms["vform"]["email"].value; 
+var atposition=email.indexOf("@");
+var dotposition=email.lastIndexOf(".")     
+if (name==null || name=="")
+{alert("Name must be filled out");
+return false;}
+if(isNaN(age) || age<18 || age>50)
+{alert("Please enter a valid age between 18 and 50");
+return false;}
+if(isNaN(phone_no) || phone_no.length != 10)
+{alert("Phone number must be 10 digits");
+return false;
+}
+if(password.length<6)
+{alert("Password must have 6 charecter");return false;}
+if (atposition<1 || dotposition<atposition+2 || dotposition+2>=x.length)
+{alert("Please enter a valid e-mail address");
+return false;}
+return true;}
+</script>
+</body>
+</html>
