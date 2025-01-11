@@ -1,0 +1,162 @@
+frame.html  
+<HTML>  
+    <HEAD>  
+    <TITLE>FRAME</TITLE>  
+    </HEAD>  
+    <FRAMESET cols="40%, 60%">  
+      <FRAME src="form(1).html">  
+      <FRAME src="mca.html">  
+    </FRAMESET>  
+    </HTML> form.html <html>  
+  <head>  
+  <title>form</title>  
+  <style>  
+  .b{      border-style:solid;      border-width:2px;  
+     }  
+  label,h3,h2{    color:red;  
+  }  
+  </style>  
+  </head>  
+  <body style="background-color:powderblue;  div class="b">  
+  <h2 align="center" color="red">MCA REGISTRATION FORM</h2>     <form>  
+  <tr>  
+  <td colspan="2" align="center"><h3>PERSONAL DETAILS</h3></TD>  
+  </tr>  
+  <tr>  <td>  
+  <label for="fname"><b>NAME</b></label>  </td>    <td>  
+  <input type="text" name="name"  size=20><br><br>  
+  </td>  </tr>  
+  <tr> <td>  
+  <label for="dob"><b>DOB</b></label>  
+  </td>  
+   <td>  
+  <input type="date" name="dob"  size=20><br><br>  
+  </td>  </tr>  
+  <tr> <td>  
+  <label for="address"><b>ADDRESS</b></label>  
+  </td>  
+  <td>  
+  <input type="text" name="address"  size=20><br><br>  
+  </td>  </tr>  
+  <tr>  <td>  
+  <label for="mb"><b>MOBILE NO.</b></label>  
+  </td>  
+  <td>  
+  <input type="number" name="mb"  size=20><br><br>  
+  </td>  </tr>  
+  <tr> <td>  
+  <label for="age"><b>AGE</b></label> </td>  
+  <td>  
+  <input type="number" name="age "size=10><br><br> </tr>  
+  <tr> <td>  
+  <label for="fname"><b>FATHER'S NAME</b></label>  
+  </td>  
+  <td>  
+  <input type="text" name="nane "size=10><br><br>  
+  </tr>  <tr>   <td>  
+  <label for="fname"><b>MOTHER'S NAME</b></label>  
+  </td>  <td>  
+  <input type="text" name="name "size=10><br><br>  
+  </tr> </td>  
+  <tr>  <td>  
+  <label for="uname"><b>USER NAME</b></label>  
+  </td>  <td>  
+  <input type="text" name="uname "size=25><br><br>  
+  </tr> </td>  
+  <tr>  <td>  
+  <label for="password"><b>PASSWORD</b></label>  
+  </td> <td>  
+  <input type="password" name="password "size=25><br><br>  
+  </tr>  </td>  
+  <tr> <td>  
+  <h3>GENDER</h3>  
+  </td> <td>  
+  <input type="radio" name="gender" value="male">MALE<br><br>  
+  <input type="radio" name="gender" value="female">FEMALE<br><br>  
+  </tr>  </td>  
+  <tr>  
+  <td colspan="2" align="center"><h3>EDUCATION</h3></TD>  
+  </tr>  <tr>  
+   <tr>  <td>  
+  <h3>COURSE</h3>  
+  </td> <td>  
+  <input type="checkbox" name="mca" value="on" >MCA<br><br>  
+  <input type="checkbox" name="bca" value="on" >BCA<br><br>  
+  <input type="checkbox" name="btech" value="on" >B.Tech<br><br>  
+  </tr> </td>  
+  <tr>  <td>  
+  <label for="mk"><b>MARKS</b></label>  
+  </td> <td>  
+  <input type="number" name="mk"  size=20><br><br>  
+  </td>  </tr>  
+  <tr> <td>  
+  <label for="pr"><b>PERCENTAGE</b></label>  
+  </td> <td>  
+  <input type="number" name="pr"  size=20><br><br>  
+  </td>  </tr>  
+  <td colspan="2" align="center">  
+  <input type="submit" name="submit" value="SUBMIT">  
+  <input type="reset" name="reset" value="RESET">  
+  </td> </tr>  
+  </select>  </div> </table> </center>  </form>  
+  </body> </html>  
+ 
+mca.html 
+ 
+ <html>  
+  <head>  
+  <title>MITS</title>  
+  <link rel="stylesheet" href="mcss.css">  
+  </head>  
+  <body>  
+  <p><h1 align="center">Muthoot Institute of Technology and Science </h1>  
+  <h5 align="center"><i>A premier engineering college in the state, located at       Kochi</i></h5>  
+ <h6 align="right">  
+  Affiliated to APJ Abdul Kalam Technological University<br> Approved by AICTE<br>    info@mgits.ac.in | 0484-2883300/0484-2732100/111<br>  
+  Relentless passion for excellence...<br>  
+  (Promoted by The Muthoot Group)<br>  
+  </h6>  
+  <imgsrc="C:\Users\acer\Desktop\mits\imges\mits.jpg"width=500px height=250px">  
+  <h2>ABOUT</h2>  
+  <p>  
+  <i>Muthoot Institute of Technology and Science (MITS) </i>is promoted by Muthoot M. George Institute of Technology, a Section 25 Company within the Muthoot Group. MITS is a self financing technical institution offering postgraduate and undergraduate engineering programmes, situated in the industrial suburb of Kochi, close to the Smart City and Info Park, approximately 15 kms from  
+  Vytilla Junction towards Muvattupuzha on the Cochin Madurai National Highway.    </p>  
+  <p>  
+  The promoters with their commanding presence in the domains of  
+  Financial Services, Hospitality, Healthcare, Renewable Energy and    Information Technology, are committed to building MITS as a  
+  centre of excellence, focusing purely on merit. This “temple of learning” will provide to the students, state-of-the-art infrastructure, highly qualified and proficient teachers from various faculty of engineering and allied streams, embedded in a conducive environment where focus will be on their harmonious development.</p>  
+  <h2>MASTER OF COMPUTER APPLICATIONS</h2></center>  
+  <p>  
+  Muthoot Institute of Technology and Science (MITS) Puthencruz was established in May 2013. The Department of Computer Applications (CA) is the youngest in the MITS family. The department offers the postgraduate programme, Master of Computer Applications with an annual intake of 60 students. We provide excellent academic ambience in curricular, cocurricular and extracurricular initiatives, facilities and teaching-learning experiences.  
+  </p>  
+  <iframe 	src="https://mgmits.ac.in/departments/master-of-computerapplications/" height="225" width="500"> </iframe>  
+  <h2>PROGRAMM OFFERED</h2>  
+  <ul>  
+  <li>B.TechCIVIL ENGINEERING</li>  
+  <li>B.Tech</li>  
+  <li>COMPUTER SCIENCE ENGINEERING</li>  
+  <li>B.TechELECTRONICS & COMMUNICATION ENGINEERING</li>  
+  <li>B.Tech</li>  
+  <li>MECHANICAL ENGINEERING</li>  
+  </ul>  
+  <h2>VISION</h2></center>  
+  <p>  
+  To be a centre of excellence for learning and research in engineering and technology, producing intellectually well-equipped and socially committed citizens possessing an ethical value system.  
+  </p>  
+  <h2>IMAGES</h2>  
+  <a  
+  href="https://www.bing.com/images/search?q=muthoot+institute+of+science 
++and+technology&form=HDRSC3&first=1">Click here...</a>  
+  </center>  
+  </body>  
+  </html>  
+    
+    
+  main.css  
+ 
+  * {  box-sizing: border-box;  }  
+  .column  { float: left; width: 33.33%; padding: 5px;  }    .row::after   { content: ""; clear: both; display: table; }    h2 {color:red;  }  
+  h6 {  color:blue; font-size:10; }    h5,h1{  color:red; }  
+  .frame { width: 20px;        height: 20px;        margin: 10px; }     body{ background-color:powderblue;  }  
+ 
+   
