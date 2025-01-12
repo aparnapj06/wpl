@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>Sort Name</title>
+<style>
+  body {  font-family: Arial, sans-serif;
+        background-color: yellow;
+        color: #333;
+        margin: 0;
+        padding: 0;}
+    h3 {color: black;
+        margin-top: 30px;}
+.sorted-names {padding: 10px;
+        background-color: #eaf2f8;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 16px;
+        color: #2c3e50;}
+</style></head>
+<body>
+<?php
+$stud_name=array("Amrutha","Sreehari","Rohith","Malavika","Zera","Beena");
+echo "<br> <h3>NAME OF STUDENTS: </h3><br>";
+print_r($stud_name);
+echo"<br>";
+echo "<br>  <h3>Names in ascending order: </h3><br>";
+asort($stud_name);
+print_r($stud_name);
+echo"<br>";
+echo "<br> <h3>Names in descending order:</h3><br>";
+arsort($stud_name);
+print_r($stud_name);
+?>
+</body>
+</html>
