@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>Indian Cricket Players</title>
+<style>
+table{
+width:50%;
+margin:20%;
+border:50px;
+color:orange;
+}
+th, td {
+padding: 10px;
+text-align: center;
+border: 1px solid #ddd;
+font-size:20px;
+}
+h1 {
+text-align: center;}
+</style>
+</head>
+<body>
+<?php
+$player_name=array("Sachin Tendulkar","Kapil Dev ","MS Dhoni ","Rahul Dravid ","Sourav Ganguly","VVS Laxman","Anil Kumble","Sunil Gavaska","Zaheer Khan ","Harbhajan Singh");
+?>
+<table>
+<th>
+<h1>Indian Cricket Players</h1>
+</th>
+<?php
+foreach($player_name as $player_name)
+{
+echo"<tr> <td>".$player_name."</tr> </td>";
+}
+?>
+</table>
+</body>
+</html>
+
