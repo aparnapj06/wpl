@@ -1,0 +1,72 @@
+<html>
+<head>
+<title>REGIDTERATION FORM</title>
+<style>
+.error {color: red;
+font-weight: bold;}
+.success {color: green;
+font-weight: bold;}
+</style>
+</head>
+<body><center>
+<form name="form1" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+Name:<input type="text" name="fname"><br><br>
+E-mail :<input type="text" name="email"><br><br>
+Gender :<input type="radio" name="gender" value="female">Female
+<input type="radio" name="gender" value="male">Male
+<input type="radio" name="gender" value="other">Other<br><br>
+Age :<input type="number" name="age"><br><br>
+<input type="submit" name="submit" value="submit">
+</form>
+<?php
+$fname = $email = $gender = $age = $success= $error =  "";
+$error = [];
+if($_SERVER["REQUEST_METHOD"]=="POST")
+{if (empty($_POST["fname"])) 
+          {
+               $error[] = "Name is required.";
+           } 
+else
+          {
+              $fname = test_input($_POST["fname"]);
+          }
+if (empty($_POST["email"])) 
+         {
+             $error[] = "Email is required.";
+          } 
+else
+         {
+             $email = test_input($_POST["email"]);
+if(!filter_var($email,FILTER_VALIDATE_EMAIL))
+         {
+               $error []= "Invalid Email.";}}
+
+if (empty($_POST["gender"])) {
+          $error[] = "Gender is required.";}
+else {
+           $gender = test_input($_POST["gender"]);}
+if (empty($_POST["age"])) {
+          $error []= "Age is required.";}
+ else {
+           $age = test_input($_POST["age"]);
+           // Validate age range
+           if ($age < 18 || $age > 100) {
+           $error[] = "Age must be between 18 and 100.";
+}}
+if (empty($error)) {
+          $success = "Registration successful! Welcome, " . $fname . ".";}}
+function test_input($data) 
+        {$data = trim($data);
+          $data = stripslashes($data);
+          $data = htmlspecialchars($data);            
+          return $data;}
+if (!empty($error)) {
+         foreach ($error as $error) {
+         echo "<p class='error'>$error</p>";
+}}
+if ($success) {
+        echo "<p class='success'>$success</p>";}
+?>
+</center>
+</body>
+</html>
