@@ -1,0 +1,65 @@
+<html>
+<head>
+<title> teacher</title>
+</head>
+<style>
+body {
+font-family: Arial, sans-serif;
+background-color:rgb(240, 237, 244);
+margin: 20px;
+color: rgb(4, 3, 6);
+}
+table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 20px;
+background-color: rgb(238, 82, 149);
+}
+th, td {
+padding: 10px;
+text-align: left;
+border: 1px solid #ddd;
+}
+th {
+background-color:rgb(238, 82, 149);
+}
+tr:nth-child(even) {
+background-color:rgb(238, 82, 149);
+</style>
+<body>
+<?php
+$servername="localhost";
+$username="root";
+$password="";
+$dbname="college";
+
+$conn=mysqli_connect($servername,$username,$password,$dbname);
+if(!$conn)
+{die("Connection failed:" .mysqli_connect_error());}
+echo "Connection successfully<br>";
+$sql="select * from teacher ";
+$res=mysqli_query($conn,$sql);
+if(mysqli_num_rows($res)>0)
+{echo "<h1 style=\"text-align: center;\">Teacher's List</h1>";
+echo "<table border='1'>
+<tr><th>SI_NO</th>
+<th>NAME</th>
+<th>SUBJECT</th>
+<th>DEPARTMENT</th>
+</tr>";
+while($row = mysqli_fetch_assoc($res))
+{echo"<tr>";
+echo "<td>" .$row["t_no"]. "</td>";
+echo "<td>" .$row["name"]. "</td>";
+echo "<td>" .$row["subject"]."</td>";
+echo "<td>" .$row["dept"]. "</td>";
+echo "</tr>";}
+echo "</table>";}
+else{
+echo "No record found";}?>
+</body>
+</html>
+
+
+
+
