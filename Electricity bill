@@ -1,0 +1,86 @@
+<html>
+<head>
+<title>Electricity Bill</title>
+<style>
+body {font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        color: #333;
+        margin: 0;
+        padding: 0;}
+h1 {text-align: center;
+        color: #333;
+        margin-top: 30px;}
+.container {width: 300px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;}
+label {font-size: 16px;
+       color: #333;}
+input[type="number"], input[type="submit"] {width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        font-size: 16px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        box-sizing: border-box;}
+input[type="submit"] {background-color: #4CAF50;
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s;}
+.result {text-align: center;
+        margin-top: 20px;
+        font-size: 20px;}
+.error {color: red;}
+.success {color: green;}
+</style></head>
+<body>
+<h1>Electricity Bill</h1>
+<div class="container">
+    <form method="post">
+        <label for="name">Consumer Name</label>
+        <input type="text" name="name" id="name" required><br><br>
+        <label for="consumer_id">Consumer ID</label>
+        <input type="text" name="consumer_id" id="consumer_id" required><br><br>
+        <label for="unit">Enter Units Consumed</label>
+        <input type="number" name="unit" id="unit" min="1" required><br><br>
+        <input type="submit" name="submit" value="Submit">
+    </form>
+    <?php
+    $result = "";
+    if (isset($_POST['submit'])) {
+        // Get form inputs
+        $name = htmlspecialchars($_POST['name']);
+        $consumer_id = htmlspecialchars($_POST['consumer_id']);
+        $unit = $_POST['unit'];
+        // Validation for unit input
+        if (!is_numeric($unit) || $unit <= 0) {
+            $result = "<p class='error'>Please enter a valid number of units.</p>";
+        } else {
+            // Calculate the bill
+            $bill = ele_bill($unit);
+            $result = "<p class='success'>Consumer Name: {$name}<br>
+Consumer ID: {$consumer_id}<br>
+Total amount for {$unit} units is: " . number_format($bill, 3) . "</p>"; }}
+    // Function to calculate the bill
+    function ele_bill($unit) {
+        if ($unit > 0 && $unit <= 100) {
+            $bill = $unit * 5;
+        } elseif ($unit > 100 && $unit <= 200) {
+            $bill = $unit * 7;
+        } elseif ($unit > 200) {
+            $bill = $unit * 10;
+        } else {
+            $bill = 0;
+        }
+        return $bill;
+    }
+
+    echo $result;
+    ?>
+</div>
+</body>
+</html>
+
+
+
