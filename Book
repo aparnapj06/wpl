@@ -1,0 +1,146 @@
+<html>
+<head><title> book</title></head>
+<style>
+body {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: #e9ecef;
+margin: 0;
+padding: 20px;
+}
+h2 {
+color: #343a40;
+text-align: center;
+}
+form {
+background-color: #ffffff;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+margin-bottom: 20px;
+}
+input[type="text"],
+input[type="number"] {
+width: calc(100% - 22px);
+padding: 12px;
+margin: 10px 0;
+border: 1px solid #ced4da;
+border-radius: 4px;
+transition: border-color 0.3s;
+}
+input[type="text"]:focus,
+input[type="number"]:focus {
+border-color: #80bdff;
+outline: none;
+}  
+input[type="submit"] {
+background-color: #007bff;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+transition: background-color 0.3s;
+}
+input[type="submit"]:hover {
+background-color: #0056b3;
+}table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 20px;
+}
+table, th, td {
+border: 1px solid #dee2e6;
+}
+th, td {
+padding: 12px;
+text-align: left;
+}
+th {
+background-color: #343a40;
+color: white;
+}
+tr:nth-child(even) {
+background-color: #f8f9fa;
+}
+tr:hover {
+background-color: #e2e6ea;
+}
+.container {
+max-width: 800px;
+margin: auto;
+padding: 20px;
+background-color: #ffffff;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+</style>
+<body>    <h2>Book Details</h2>
+<form name="form" method="post" action="detail_book.php" >
+Book Id :<input type="number" name="b_id" ><br><br>
+Book Title :<input type="text" name="title" ><br><br>
+Author :<input type="text" name="author" ><br><br>
+Edition:<input type="text" name="ed" ><br><br>
+Publisher :<input type="text" name="pub" ><br><br>
+<input type="submit" name="submit" ><br><br>
+</form>
+<h2>Search Here </h2>
+<form name="search_form" method="post" action="detail_book.php" >
+Author :<input type="text" name="src_author" ><br><br>
+<input type="submit" name="search" ><br><br>
+</form>
+<?php
+if(isset($_POST['submit']))
+{
+$servername="localhost";
+$username="root";
+$password="";
+$dbname="college";
+$conn=mysqli_connect($servername,$username,$password,$dbname);   
+if(!$conn)
+{die("Connection failed".mysqli_connect_error());}
+$b_id = $_POST['b_id'];
+$title = $_POST['title'];
+$author = $_POST['author'];
+$ed = $_POST['ed'];
+$pub = $_POST['pub'];
+$sql="INSERT INTO book_details(b_id,title,author,ed,pub) VALUES ('$b_id','$title','$author','$ed','$pub')";    
+if(mysqli_query($conn,$sql))
+{echo "success";}
+else{
+echo"error". $sql . "<br>" . mysqli_error($conn);
+}}
+    //search
+if(isset($_POST['search']))
+{
+$servername="localhost";
+$username="root";
+$password="";
+$dbname="college";
+$conn=mysqli_connect($servername,$username,$password,$dbname);
+if(!$conn)
+{die("Connection failed".mysqli_connect_error());}
+$src_author = $_POST['src_author'];
+$sql="SELECT * FROM book_details WHERE author='$src_author'";
+$result=mysqli_query($conn,$sql);
+if(mysqli_num_rows($result)>0)
+{
+echo "<center><table border=2 >
+<tr> <th> BOOK  ID </th>
+<th>  TITLE </th> 
+<th> AUTHOR </th> 
+<th>  EDITION </th>
+<th> PUBLISHER </th> </tr>";
+while($row=mysqli_fetch_assoc($result))
+{
+echo "<tr>";
+echo "<td>" .$row['b_id']."</td>";
+echo "<td>" .$row['title']."</td>";
+echo "<td>" .$row['author']."</td>";
+echo "<td>" .$row['ed']."</td>";
+echo "<td>" .$row['pub']."</td> </tr>";
+}
+echo "</table></center>";  }
+else
+{echo "Book is not found <br>";}}
+mysqli_close($conn);
+?></body></html>
